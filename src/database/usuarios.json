@@ -1,0 +1,24 @@
+{
+    "usuarios" : {
+        "1" : {
+            "nombreusu":"testuser1",
+            "publicaciones":["1","2","3"],
+            "favoritos":["4","5"]
+        },
+        "2" : {
+            "nombreusu":"testuser2",
+            "publicaciones":["4","5"],
+            "favoritos":["1","3"]
+        },
+        "3" : {
+            "nombreusu":"testuser3",
+            "publicaciones":["6"],
+            "favoritos":["3"]
+        },
+        "4" : {
+            "nombreusu":"testuser4",
+            "publicaciones":[],
+            "favoritos":[]
+        }
+    }
+}
