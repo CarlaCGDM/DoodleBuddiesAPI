@@ -12,6 +12,11 @@ router.route("/")
     .get(postController.getAllPosts)
     .post(postController.createOnePost);
 
+// localhost:3001/api/v1/publicaciones/page/:page
+
+router.route("/page/:page")
+    .get(postController.getAllPosts);
+
 // localhost:3001/api/v1/publicaciones/:id
 
 router.route("/:id")

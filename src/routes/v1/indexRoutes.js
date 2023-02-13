@@ -18,6 +18,23 @@ router.get("/", (req, res, next)=>{
 router.use("/usuarios",  userRoutes.router); // http://localhost:3001/api/v1/usuarios
 router.use("/publicaciones",  postRoutes.router); // http://localhost:3001/api/v1/publicaciones
 
+
+
+
+
+
+
+// PRUEBAS
+
+
+
+
+
+
+
+
+
+
 // guardar imagenes (separar luego)
 
 const multer = require('multer');

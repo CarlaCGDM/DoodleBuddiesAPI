@@ -8,7 +8,6 @@
 
 const postServices = require("../services/postServices");
 
-
 /*  ------------------------------------------------------------------------------------------------------------ ||| GET ALL POSTS
 *
 *   --> GET /api/v1/publicaciones
@@ -17,10 +16,14 @@ const postServices = require("../services/postServices");
 */
 
 const getAllPosts = (req, res, next) => {
+  
+  const page = req.params.page;  // Parametros de la URL
 
-  const allPosts = postServices.getAllPosts();
+  console.log(req.params);
 
-  //Si no se encuentran publicaciones, devolvemos código de error 404 (recurso no encontrado).
+  const allPosts = postServices.getAllPosts(page);
+
+  // Si no se encuentran publicaciones, devolvemos código de error 404 (recurso no encontrado).
 
   if (Object.keys(allPosts).length != 0) {
 

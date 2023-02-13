@@ -12,14 +12,14 @@
     "2": {
       "titulo": "publicacion2",
       "autor": "1",
-      "imagen":"static/dibujos/1.jpeg",
+      "imagen":"static/dibujos/2.jpeg",
       "favoritos": [],
       "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     "3": {
       "titulo": "publicacion3",
       "autor": "1",
-      "imagen":"static/dibujos/1.jpeg",
+      "imagen":"static/dibujos/3.jpeg",
       "favoritos": [
         "2",
         "3"
@@ -29,7 +29,7 @@
     "4": {
       "titulo": "publicacion4",
       "autor": "2",
-      "imagen":"static/dibujos/1.jpeg",
+      "imagen":"static/dibujos/4.jpeg",
       "favoritos": [
         "1"
       ],
@@ -38,19 +38,64 @@
     "5": {
       "titulo": "publicacion5",
       "autor": "2",
-      "imagen":"static/dibujos/1.jpeg",
+      "imagen":"static/dibujos/5.jpeg",
       "favoritos": [],
       "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     "6": {
       "titulo": "publicacion6",
       "autor": "3",
-      "imagen":"static/dibujos/1.jpeg",
+      "imagen":"static/dibujos/6.jpeg",
       "favoritos": [],
       "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
+    "7": {
+      "titulo": "dibujo",
+      "autor": "1",
+      "imagen":"static/dibujos/1.jpeg",
+      "favoritos": [],
+      "descripcion": "espero que les guste",
+      "fechaAlta": "12/2/2023",
+      "fechaModificacion": "12/2/2023"
+    },
+    "8": {
+      "titulo": "dibujo",
+      "autor": "1",
+      "imagen":"static/dibujos/1.jpeg",
+      "favoritos": [],
+      "descripcion": "espero que les guste",
+      "fechaAlta": "12/2/2023",
+      "fechaModificacion": "12/2/2023"
+    },
     "7943ea7d-25c2-490b-9c02-4d032df13332": {
       "titulo": "mi dibujito",
+      "autor": "1",
+      "imagen":"static/dibujos/1.jpeg",
+      "favoritos": [],
+      "descripcion": "espero que les guste",
+      "fechaAlta": "12/2/2023",
+      "fechaModificacion": "12/2/2023"
+    },
+    "7943ea7d-25c2-490b-9c0fdsf": {
+      "titulo": "mi dibujito",
+      "autor": "1",
+      "imagen":"static/dibujos/1.jpeg",
+      "favoritos": [],
+      "descripcion": "espero que les guste",
+      "fechaAlta": "12/2/2023",
+      "fechaModificacion": "12/2/2023"
+    },
+    "7943ea7-490b-9c02-4d032df13332": {
+      "titulo": "dibujo",
+      "autor": "1",
+      "imagen":"static/dibujos/1.jpeg",
+      "favoritos": [],
+      "descripcion": "espero que les guste",
+      "fechaAlta": "12/2/2023",
+      "fechaModificacion": "12/2/2023"
+    },
+    "490b-9c02-4d032df13332": {
+      "titulo": "dibujo",
       "autor": "1",
       "imagen":"static/dibujos/1.jpeg",
       "favoritos": [],

@@ -1,11 +1,11 @@
 const postModel = require("../database/postModel");
-const {v4: uuid} = require("uuid")
+const {v4: uuid} = require("uuid");
 
-const getAllPosts = () => {
+const getAllPosts = (page) => {
 
     // Se llama a la función del modelo que obtiene todos los post
 
-    const allPosts = postModel.getAllPosts();
+    const allPosts = postModel.getAllPosts(page ? page : 1); // Si no existe page, la página es la primera
     return allPosts;
 }
 

@@ -1,9 +1,14 @@
 const datos = require("./publicaciones.json")
 const fs = require("fs")
 
-const getAllPosts = () => {
+const getAllPosts = (page) => {
 
-    return datos.publicaciones;
+    const perPage = 5;
+
+    const start = perPage * (page - 1);
+    const end = perPage * page;
+
+    return Object.entries(datos.publicaciones).slice(start,end).map(entry => entry[1]);
     
 }
 
