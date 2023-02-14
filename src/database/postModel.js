@@ -3,7 +3,7 @@ const fs = require("fs")
 
 const getAllPosts = (page) => {
 
-    const perPage = 5;
+    const perPage = 8;
 
     const start = perPage * (page - 1);
     const end = perPage * page;

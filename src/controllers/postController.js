@@ -19,8 +19,6 @@ const getAllPosts = (req, res, next) => {
   
   const page = req.params.page;  // Parametros de la URL
 
-  console.log(req.params);
-
   const allPosts = postServices.getAllPosts(page);
 
   // Si no se encuentran publicaciones, devolvemos código de error 404 (recurso no encontrado).

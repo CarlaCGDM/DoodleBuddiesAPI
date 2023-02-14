@@ -1,107 +1,419 @@
 {
   "publicaciones": {
     "1": {
-      "titulo": "mi dibujito 2",
-      "autor": "1",
-      "imagen":"static/dibujos/1.jpeg",
+      "titulo": "Paisaje al Atardecer",
+      "autor": "6",
+      "imagen": "static/dibujos/1.jpeg",
       "favoritos": [
-        "2"
+        "7",
+        "8"
       ],
-      "descripcion": "hola"
+      "descripcion": "Un paisaje de montañas con un hermoso cielo rojizo al atardecer."
     },
     "2": {
-      "titulo": "publicacion2",
-      "autor": "1",
-      "imagen":"static/dibujos/2.jpeg",
-      "favoritos": [],
-      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "titulo": "Naturaleza en Movimiento",
+      "autor": "3",
+      "imagen": "static/dibujos/2.jpeg",
+      "favoritos": [
+        "6",
+        "9"
+      ],
+      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento."
     },
     "3": {
-      "titulo": "publicacion3",
-      "autor": "1",
-      "imagen":"static/dibujos/3.jpeg",
+      "titulo": "Retrato de una Mujer",
+      "autor": "5",
+      "imagen": "static/dibujos/3.jpeg",
       "favoritos": [
         "2",
-        "3"
+        "4"
       ],
-      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "descripcion": "Un retrato detallado y expresivo de una mujer con su cabello largo y su piel suave."
     },
     "4": {
-      "titulo": "publicacion4",
-      "autor": "2",
-      "imagen":"static/dibujos/4.jpeg",
+      "titulo": "Ciudad en la Noche",
+      "autor": "4",
+      "imagen": "static/dibujos/4.jpeg",
       "favoritos": [
-        "1"
+        "5",
+        "10"
       ],
-      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "descripcion": "Una vista nocturna de una ciudad con sus luces y rascacielos brillando en la oscuridad."
     },
     "5": {
-      "titulo": "publicacion5",
+      "titulo": "Mar en Calma",
       "autor": "2",
-      "imagen":"static/dibujos/5.jpeg",
-      "favoritos": [],
-      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "imagen": "static/dibujos/5.jpeg",
+      "favoritos": [
+        "3",
+        "6"
+      ],
+      "descripcion": "Un mar tranquilo con olas suaves y un cielo azul claro."
     },
     "6": {
-      "titulo": "publicacion6",
-      "autor": "3",
-      "imagen":"static/dibujos/6.jpeg",
-      "favoritos": [],
-      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      "titulo": "La Naturaleza en el Otoño",
+      "autor": "7",
+      "imagen": "static/dibujos/6.jpeg",
+      "favoritos": [
+        "3",
+        "9",
+        "10"
+      ],
+      "descripcion": "El otoño es una época llena de color y belleza, y esta obra captura la esencia de la naturaleza en esta temporada. Un paisaje lleno de hojas doradas y rojas y un cielo nublado crean un ambiente mágico."
     },
     "7": {
-      "titulo": "dibujo",
-      "autor": "1",
-      "imagen":"static/dibujos/1.jpeg",
-      "favoritos": [],
-      "descripcion": "espero que les guste",
-      "fechaAlta": "12/2/2023",
-      "fechaModificacion": "12/2/2023"
+      "titulo": "Mar de la Paz",
+      "autor": "3",
+      "imagen": "static/dibujos/7.jpeg",
+      "favoritos": [
+        "2",
+        "4",
+        "6"
+      ],
+      "descripcion": "El mar es un lugar de calma y serenidad, y esta obra lo captura perfectamente. El oleaje suave y las nubes blancas crean un paisaje idílico que invita a la reflexión."
     },
     "8": {
-      "titulo": "dibujo",
-      "autor": "1",
-      "imagen":"static/dibujos/1.jpeg",
-      "favoritos": [],
-      "descripcion": "espero que les guste",
-      "fechaAlta": "12/2/2023",
-      "fechaModificacion": "12/2/2023"
+      "titulo": "La Danza de la Vida",
+      "autor": "10",
+      "imagen": "static/dibujos/8.jpeg",
+      "favoritos": [
+        "1",
+        "7",
+        "9"
+      ],
+      "descripcion": "La vida es una danza constante, llena de movimiento y cambios. Esta obra representa la alegría y el dinamismo de la vida a través de un grupo de personas bailando en una fiesta."
     },
-    "7943ea7d-25c2-490b-9c02-4d032df13332": {
-      "titulo": "mi dibujito",
-      "autor": "1",
-      "imagen":"static/dibujos/1.jpeg",
-      "favoritos": [],
-      "descripcion": "espero que les guste",
-      "fechaAlta": "12/2/2023",
-      "fechaModificacion": "12/2/2023"
+    "9": {
+      "titulo": "La Catedral del Bosque",
+      "autor": "6",
+      "imagen": "static/dibujos/9.jpeg",
+      "favoritos": [
+        "1",
+        "5",
+        "10"
+      ],
+      "descripcion": "El bosque es un lugar mágico, lleno de misterio y belleza. Esta obra representa la grandeza y el poder de la naturaleza, con una catedral de árboles y un cielo nublado en el fondo."
     },
-    "7943ea7d-25c2-490b-9c0fdsf": {
-      "titulo": "mi dibujito",
-      "autor": "1",
-      "imagen":"static/dibujos/1.jpeg",
-      "favoritos": [],
-      "descripcion": "espero que les guste",
-      "fechaAlta": "12/2/2023",
-      "fechaModificacion": "12/2/2023"
+    "10": {
+      "titulo": "La Fuerza Interior",
+      "autor": "5",
+      "imagen": "static/dibujos/10.jpeg",
+      "favoritos": [
+        "2",
+        "3",
+        "8"
+      ],
+      "descripcion": "Cada persona tiene una fuerza interior que la guía en la vida. Esta obra representa la lucha interna y la superación de los obstáculos a través de una figura humana fuerte y decidida."
     },
-    "7943ea7-490b-9c02-4d032df13332": {
-      "titulo": "dibujo",
-      "autor": "1",
-      "imagen":"static/dibujos/1.jpeg",
-      "favoritos": [],
-      "descripcion": "espero que les guste",
-      "fechaAlta": "12/2/2023",
-      "fechaModificacion": "12/2/2023"
+    "11": {
+      "titulo": "Arte en el jardín",
+      "autor": "9",
+      "imagen": "static/dibujos/11.jpeg",
+      "favoritos": [
+        "7",
+        "3",
+        "8"
+      ],
+      "descripcion": "Un retrato de un jardín lleno de color y vida, con una gran variedad de flores y hojas. La luz y el aire fresco invaden el cuadro y crean un ambiente relajante."
     },
-    "490b-9c02-4d032df13332": {
-      "titulo": "dibujo",
+    "12": {
+      "titulo": "La luz del atardecer",
+      "autor": "7",
+      "imagen": "static/dibujos/12.jpeg",
+      "favoritos": [
+        "2",
+        "5",
+        "10"
+      ],
+      "descripcion": "Un paisaje de un atardecer en el campo, con un hermoso cielo rosado y naranja. El sol se pone detrás de las montañas y la luz dorada ilumina el campo."
+    },
+    "13": {
+      "titulo": "El mar en calma",
+      "autor": "4",
+      "imagen": "static/dibujos/13.jpeg",
+      "favoritos": [
+        "9",
+        "7",
+        "10"
+      ],
+      "descripcion": "Un paisaje marino con el mar en calma y un hermoso cielo azul. La brisa suave hace que las olas se muevan suavemente y las gaviotas vuelan por encima."
+    },
+    "14": {
+      "titulo": "La naturaleza en su máximo esplendor",
+      "autor": "10",
+      "imagen": "static/dibujos/14.jpeg",
+      "favoritos": [
+        "5",
+        "1",
+        "9"
+      ],
+      "descripcion": "Un paisaje de un bosque lleno de vida, con un río cristalino y un hermoso cielo azul. La luz natural ilumina el cuadro y las hojas verdes se mueven con la brisa."
+    },
+    "15": {
+      "titulo": "La ciudad al atardecer",
       "autor": "1",
-      "imagen":"static/dibujos/1.jpeg",
-      "favoritos": [],
-      "descripcion": "espero que les guste",
-      "fechaAlta": "12/2/2023",
-      "fechaModificacion": "12/2/2023"
-    }
+      "imagen": "static/dibujos/15.jpeg",
+      "favoritos": [
+        "3",
+        "10",
+        "8"
+      ],
+      "descripcion": "Un paisaje de una ciudad con un hermoso cielo rosado y naranja al atardecer. La luz dorada ilumina los edificios y las calles están llenas de vida."
+    },
+    "16": {
+      "titulo": "Nature's Beauty",
+      "autor": "7",
+      "imagen": "static/dibujos/16.jpeg",
+      "favoritos": [
+        "4",
+        "8",
+        "2"
+      ],
+      "descripcion": "A breathtaking painting that captures the essence of nature, showcasing its raw beauty and the intricate details of its flora and fauna."
+    },
+    "17": {
+      "titulo": "The Urban Jungle",
+      "autor": "9",
+      "imagen": "static/dibujos/17.jpeg",
+      "favoritos": [
+        "6",
+        "3",
+        "10"
+      ],
+      "descripcion": "An abstract interpretation of the city life, with a focus on the chaos, movement and energy that define it."
+    },
+    "18": {
+      "titulo": "Under the Sea",
+      "autor": "4",
+      "imagen": "static/dibujos/18.jpeg",
+      "favoritos": [
+        "1",
+        "7",
+        "5"
+      ],
+      "descripcion": "A peaceful and serene painting that takes you to the depths of the ocean, showcasing the vibrant colors and unique creatures of the underwater world."
+    },
+    "19": {
+      "titulo": "The Majestic Mountains",
+      "autor": "2",
+      "imagen": "static/dibujos/19.jpeg",
+      "favoritos": [
+        "9",
+        "10",
+        "1"
+      ],
+      "descripcion": "An awe-inspiring painting that showcases the beauty and grandeur of the majestic mountains, with its striking peaks and stunning landscapes."
+    },
+    "20": {
+      "titulo": "Ethereal Dreamscape",
+      "autor": "8",
+      "imagen": "static/dibujos/20.jpeg",
+      "favoritos": [
+        "1",
+        "4",
+        "6"
+      ],
+      "descripcion": "A surreal and dreamy painting that takes you to an ethereal world, filled with vibrant colors and whimsical creatures."
+    }, 
+    "21": {
+      "titulo": "The Lonely Mountain",
+      "autor": "9",
+      "imagen": "static/dibujos/21.jpeg",
+      "favoritos": [
+      "1",
+      "3",
+      "5"
+      ],
+      "descripcion": "A beautiful painting of a mountain in the middle of nowhere, surrounded by clouds and mist."
+      },
+      "22": {
+      "titulo": "The Ocean's Fury",
+      "autor": "10",
+      "imagen": "static/dibujos/22.jpeg",
+      "favoritos": [
+      "4",
+      "6",
+      "8"
+      ],
+      "descripcion": "A dramatic painting showing the power of the ocean, with waves crashing against the rocks and the wind howling."
+      },
+      "23": {
+      "titulo": "Sunrise in the Forest",
+      "autor": "5",
+      "imagen": "static/dibujos/23.jpeg",
+      "favoritos": [
+      "2",
+      "7",
+      "9"
+      ],
+      "descripcion": "A peaceful painting of a sunrise in a dense forest, with the warm light filtering through the trees."
+      },
+      "24": {
+      "titulo": "The Great Wall",
+      "autor": "2",
+      "imagen": "static/dibujos/24.jpeg",
+      "favoritos": [
+      "1",
+      "3",
+      "5"
+      ],
+      "descripcion": "A majestic painting of the Great Wall of China, stretching into the distance as far as the eye can see."
+      },
+      "25": {
+      "titulo": "Desert Mirage",
+      "autor": "4",
+      "imagen": "static/dibujos/25.jpeg",
+      "favoritos": [
+      "2",
+      "7",
+      "10"
+      ],
+      "descripcion": "A surreal painting of a desert mirage, with strange shapes and colors floating in the heat haze."
+      },
+      "26": {
+      "titulo": "The Northern Lights",
+      "autor": "8",
+      "imagen": "static/dibujos/26.jpeg",
+      "favoritos": [
+      "1",
+      "4",
+      "6"
+      ],
+      "descripcion": "A stunning painting of the Northern Lights, with bright colors dancing across the night sky."
+      },
+      "27": {
+      "titulo": "The Garden of Eden",
+      "autor": "7",
+      "imagen": "static/dibujos/27.jpeg",
+      "favoritos": [
+      "3",
+      "5",
+      "10"
+      ],
+      "descripcion": "A lush painting of the Garden of Eden, with tropical plants and exotic animals surrounded by a crystal clear river."
+      },
+      "28": {
+        "titulo": "Majestic Mountain",
+        "autor": "7",
+        "imagen":"static/dibujos/28.jpeg",
+        "favoritos": [
+          "3", "6", "10"
+        ],
+        "descripcion": "A breathtaking painting of a grand mountain, with its majestic peaks and sprawling valleys captured in stunning detail."
+      },
+      "29": {
+        "titulo": "Beneath the Waves",
+        "autor": "3",
+        "imagen":"static/dibujos/29.jpeg",
+        "favoritos": [
+          "2", "8"
+        ],
+        "descripcion": "A mesmerizing painting of the world beneath the waves, showcasing the vibrant colors and mysterious creatures of the deep sea."
+      },
+      "30": {
+        "titulo": "Glacier National Park",
+        "autor": "10",
+        "imagen":"static/dibujos/30.jpeg",
+        "favoritos": [
+          "1", "7"
+        ],
+        "descripcion": "A stunning painting of Glacier National Park, capturing the breathtaking beauty of its snow-capped peaks and glacier-fed rivers."
+      },
+      "31": {
+        "titulo": "Golden Hour",
+        "autor": "1",
+        "imagen":"static/dibujos/31.jpeg",
+        "favoritos": [
+          "6", "10"
+        ],
+        "descripcion": "A breathtaking painting of the golden hour, capturing the warm and cozy glow of the setting sun."
+      },
+      "32": {
+        "titulo": "Ethereal Forest",
+        "autor": "2",
+        "imagen":"static/dibujos/32.jpeg",
+        "favoritos": [
+          "4", "5", "7"
+        ],
+        "descripcion": "A magical painting of an ethereal forest, showcasing the mystical beauty of its towering trees and delicate flora."
+      },
+      "33": {
+        "titulo": "City Skyline",
+        "autor": "6",
+        "imagen":"static/dibujos/33.jpeg",
+        "favoritos": [
+          "3", "9"
+        ],
+        "descripcion": "A magnificent painting of a city skyline, showcasing the towering skyscrapers and bustling energy of a modern metropolis."
+      },
+      "34": {
+        "titulo": "Vista de la montaña",
+        "autor": "8",
+        "imagen": "static/dibujos/34.jpeg",
+        "favoritos": [
+        "6",
+        "9"
+        ],
+        "descripcion": "Una hermosa vista de una montaña cubierta de nieve con un lago cristalino a su lado"
+        },
+        "35": {
+        "titulo": "Retrato de un gato",
+        "autor": "10",
+        "imagen": "static/dibujos/35.jpeg",
+        "favoritos": [
+        "2",
+        "7"
+        ],
+        "descripcion": "Un detallado retrato de un gato con un fondo abstracto"
+        },
+        "36": {
+        "titulo": "Flores en el campo",
+        "autor": "7",
+        "imagen": "static/dibujos/36.jpeg",
+        "favoritos": [
+        "1",
+        "5"
+        ],
+        "descripcion": "Un paisaje de un campo lleno de flores de diferentes colores y formas"
+        },
+        "37": {
+        "titulo": "El puente rojo",
+        "autor": "1",
+        "imagen": "static/dibujos/37.jpeg",
+        "favoritos": [
+        "3",
+        "4"
+        ],
+        "descripcion": "Un puente rojo sobre un río con un hermoso atardecer de fondo"
+        },
+        "38": {
+        "titulo": "La ciudad en la noche",
+        "autor": "9",
+        "imagen": "static/dibujos/38.jpeg",
+        "favoritos": [
+        "2",
+        "6"
+        ],
+        "descripcion": "Un panorámico de una ciudad iluminada en la noche con rascacielos y calles concurridas"
+        },
+        "39": {
+        "titulo": "El árbol solitario",
+        "autor": "5",
+        "imagen": "static/dibujos/39.jpeg",
+        "favoritos": [
+        "10"
+        ],
+        "descripcion": "Un árbol solitario en un prado con un cielo nublado de fondo"
+        },
+        "40": {
+        "titulo": "La playa en el atardecer",
+        "autor": "4",
+        "imagen": "static/dibujos/40.jpeg",
+        "favoritos": [
+        "3",
+        "8"
+        ],
+        "descripcion": "Un paisaje de una playa con un hermoso atardecer."
+      }
   }
 }
