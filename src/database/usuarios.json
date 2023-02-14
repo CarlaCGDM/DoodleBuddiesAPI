@@ -1,24 +1,65 @@
 {
-    "usuarios" : {
-        "1" : {
-            "nombreusu":"testuser1",
-            "publicaciones":["1","2","3"],
-            "favoritos":["4","5"]
-        },
-        "2" : {
-            "nombreusu":"testuser2",
-            "publicaciones":["4","5"],
-            "favoritos":["1","3"]
-        },
-        "3" : {
-            "nombreusu":"testuser3",
-            "publicaciones":["6"],
-            "favoritos":["3"]
-        },
-        "4" : {
-            "nombreusu":"testuser4",
-            "publicaciones":[],
-            "favoritos":[]
-        }
+    "usuarios": {
+      "1": {
+        "nombreusu": "FunkyMonkey",
+        "avatar": "static/avatars/1.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      },
+      "2": {
+        "nombreusu": "PaintLover",
+        "avatar": "static/avatars/2.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      },
+      "3": {
+        "nombreusu": "ArtAdmirer",
+        "avatar": "static/avatars/3.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      },
+      "4": {
+        "nombreusu": "CanvasKing",
+        "avatar": "static/avatars/4.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      },
+      "5": {
+        "nombreusu": "BrushBuddy",
+        "avatar": "static/avatars/5.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      },
+      "6": {
+        "nombreusu": "PicturePerfect",
+        "avatar": "static/avatars/6.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      },
+      "7": {
+        "nombreusu": "SketchSiren",
+        "avatar": "static/avatars/7.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      },
+      "8": {
+        "nombreusu": "DrawingDiva",
+        "avatar": "static/avatars/8.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      },
+      "9": {
+        "nombreusu": "ArtisticAce",
+        "avatar": "static/avatars/9.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      },
+      "10": {
+        "nombreusu": "ColorCraze",
+        "avatar": "static/avatars/10.jpeg",
+        "publicaciones": [],
+        "favoritos": []
+      }
     }
-}
+  }
+  
