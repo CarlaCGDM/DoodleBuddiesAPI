@@ -32,36 +32,30 @@ router.use("/publicaciones",  postRoutes.router); // http://localhost:3001/api/v
 
 
 
-
+const fs = require('fs');
 
 
 // guardar imagenes (separar luego)
 
-const multer = require('multer');
-const path = require('path');
+  const dataURLtoFile = (dataURL) => {
+    let regex = /^data:.+\/(.+);base64,(.*)$/;
 
-const storage = multer.diskStorage({
-    destination: './public/dibujos',
-    filename: function (req, file, cb) {
-      cb(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname));
-    }
-  });
+    let matches = dataURL.match(regex);
+    let ext = matches[1];
+    let data = matches[2];
+    let buffer = Buffer.from(data, 'base64');
 
-  const upload = multer({
-    storage: storage
-  }).single('image');
+    fs.writeFileSync('./src/public/dibujos/data.' + ext, buffer);
+  }
 
   router.post('/save-image', (req, res) => {
-    upload(req, res, function (err) {
-        const { file } = req;
-      if (err instanceof multer.MulterError) {
-        return res.status(500).json({ error: err.message });
-      } else if (err) {
-        return res.status(500).json({ error: err.message });
-      }
-      console.log(file);
-      return res.status(200).send(file).end();
-    });
+    
+      const { body } = req;
+
+      dataURLtoFile(body.image);
+      
+      console.log(body);
+      return res.status(200).send(body.image).end();
   });
 
 module.exports.router = router
