@@ -1,15 +1,25 @@
 const datos = require("./publicaciones.json")
 const fs = require("fs")
 
-const getAllPosts = (page) => {
+/* TODO
+Metodo getSomePosts que le das una lista de posts y te devuelve esos posts concretos */
+
+const getAllPosts = (page,asc=true) => {
+
+    // TODO: Dejar al cliente elegir si las más antiguas o las más nuevas primero mediante un parámetro "order".
 
     const perPage = 8;
 
     const start = perPage * (page - 1);
     const end = perPage * page;
 
-    return Object.entries(datos.publicaciones).slice(start,end).map(entry => entry[1]);
+    return Object.entries(datos.publicaciones).sort((a, b) => a.fechaAlta > b.fechaAlta ? 1 : -1).slice(start,end).map(entry => entry[1]);
     
+}
+
+const getSomePosts = (postList) => {
+    let posts = Object.entries(datos.publicaciones).filter(post => postList.includes(post.id)).sort((a, b) => a.fechaAlta > b.fechaAlta ? 1 : -1);
+    return posts;
 }
 
 const getOnePost = (id) => {

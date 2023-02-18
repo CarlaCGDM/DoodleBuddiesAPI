@@ -27,8 +27,6 @@ const createOnePost = (postData) => {
     // Las imágenes de las publicaciones se reciben como dataURL y deben almacenarse en el directorio público
     // como ficheros, además de guardar su ruta en el objeto de la publicación.
 
-    console.log(newPost.imagen);
-
     const imageName = `dibujos/image-${id}`;
     
     // TODO: Añadir una comprobación por si acaso se intenta guardar una imagen en un formato que no es jpeg.
