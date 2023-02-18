@@ -423,37 +423,32 @@
       ],
       "descripcion": "Un paisaje de una playa con un hermoso atardecer."
     },
-    "eb2dda05-2e0e-4db5-9eaa-d8d91e355640": {
-      "titulo": "Paisaje al Atardecer",
+    "01d4a033-b14e-4b54-8aed-306794e2fa19": {
+      "titulo": "Naturaleza en Movimiento",
       "autor": "1",
+      "imagen": "static/dibujos/image-01d4a033-b14e-4b54-8aed-306794e2fa19.jpeg",
       "favoritos": [],
-      "descripcion": "Un paisaje de montañas con un hermoso cielo rojizo al atardecer.",
-      "fechaAlta": "17/2/2023",
-      "fechaModificacion": "17/2/2023"
+      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
+      "fechaAlta": "18/2/2023",
+      "fechaModificacion": "18/2/2023"
     },
-    "6adebbe7-65e9-4587-acb0-0a92b671f154": {
-      "titulo": "hola",
+    "b0537ee9-15e6-4c67-a188-aa64f657765b": {
+      "titulo": "Naturaleza en Movimiento",
       "autor": "1",
+      "imagen": "static/dibujos/image-b0537ee9-15e6-4c67-a188-aa64f657765b.jpeg",
       "favoritos": [],
-      "descripcion": "hola hola",
-      "fechaAlta": "17/2/2023",
-      "fechaModificacion": "17/2/2023"
+      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
+      "fechaAlta": "18/2/2023",
+      "fechaModificacion": "18/2/2023"
     },
-    "bca4c061-8d6d-4416-8800-80d7a221365e": {
-      "titulo": "hola",
-      "autor": "1",
+    "94e98455-249a-48ce-bd1c-381741842ccd": {
+      "titulo": "Naturaleza en Movimiento",
+      "autor": "2",
+      "imagen": "static/dibujos/image-94e98455-249a-48ce-bd1c-381741842ccd.jpeg",
       "favoritos": [],
-      "descripcion": "hola hola",
-      "fechaAlta": "17/2/2023",
-      "fechaModificacion": "17/2/2023"
-    },
-    "97e81c4e-0588-495c-b97a-c7020ffb1104": {
-      "titulo": "Paisaje al Atardecer",
-      "autor": "1",
-      "favoritos": [],
-      "descripcion": "Un paisaje de montañas con un hermoso cielo rojizo al atardecer.",
-      "fechaAlta": "17/2/2023",
-      "fechaModificacion": "17/2/2023"
+      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
+      "fechaAlta": "18/2/2023",
+      "fechaModificacion": "18/2/2023"
     }
   }
 }

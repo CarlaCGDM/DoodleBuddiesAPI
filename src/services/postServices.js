@@ -1,5 +1,8 @@
 const postModel = require("../database/postModel");
+const imagehandler = require("../utils/imagehandler");
+
 const {v4: uuid} = require("uuid");
+const fs = require("fs");
 
 const getAllPosts = (page) => {
 
@@ -20,6 +23,19 @@ const createOnePost = (postData) => {
         fechaAlta: new Date().toLocaleDateString(),
         fechaModificacion: new Date().toLocaleDateString()
     };
+
+    // Las imágenes de las publicaciones se reciben como dataURL y deben almacenarse en el directorio público
+    // como ficheros, además de guardar su ruta en el objeto de la publicación.
+
+    console.log(newPost.imagen);
+
+    const imageName = `dibujos/image-${id}`;
+    
+    // TODO: Añadir una comprobación por si acaso se intenta guardar una imagen en un formato que no es jpeg.
+
+    imagehandler.storeFileFromDataURL(newPost.imagen, imageName);
+
+    newPost.imagen = `static/${imageName}.jpeg`;
 
     // Insertamos la nueva publicación en la BD
 

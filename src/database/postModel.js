@@ -17,7 +17,7 @@ const getOnePost = (id) => {
     return onePost
 }
 
-const insertOnePost = (id,publicacion) => {
+const insertOnePost = (id,publicacion,imageFile) => {
 
     // Modificamos el objeto datos
     datos.publicaciones[id] = publicacion;

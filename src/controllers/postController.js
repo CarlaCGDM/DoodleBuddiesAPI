@@ -66,7 +66,8 @@ const createOnePost = (req, res, next) => {
 
     const newPostData = {
       "titulo":body.titulo,
-      "autor":"1",
+      "autor":body.autor,
+      "imagen":body.imagen,
       "favoritos":[],
       "descripcion":body.descripcion
     }
