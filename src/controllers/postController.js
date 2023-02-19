@@ -182,14 +182,14 @@ const getUserPosts = (req, res, next) => {
 
   // Le pasamos los datos al servicio.
 
-  const datos = postServices.getUserPosts(id);
+  const publicaciones = postServices.getUserPosts(id);
 
   // Si se encuentran datos, se devuelven los datos junto a un código de éxito.
   // Si no se encuentran datos, se devuelve un mensaje de error junto a un código 404.
 
-  if (datos) {
+  if (publicaciones) {
 
-    res.status(200).send({datos});
+    res.status(200).send({publicaciones});
 
   } else {
 
@@ -210,14 +210,14 @@ const getUserLikes = (req, res, next) => {
 
   // Le pasamos los datos al servicio.
 
-  const datos = postServices.getUserLikes(id);
+  const favoritos = postServices.getUserLikes(id);
 
   // Si se encuentran datos, se devuelven los datos junto a un código de éxito.
   // Si no se encuentran datos, se devuelve un mensaje de error junto a un código 404.
 
-  if (datos) {
+  if (favoritos) {
 
-    res.status(200).send({datos});
+    res.status(200).send({favoritos});
 
   } else {
 

@@ -1,171 +1,185 @@
 {
   "publicaciones": {
     "1": {
-      "titulo": "nuevo título",
-      "autor": "1",
-      "imagen": "static/dibujos/image-232d9637-535f-4059-a14e-ea6a7e4b670d.jpeg",
-      "favoritos": ["1"],
-      "descripcion": "hola",
-      "fechaAlta": "2023-02-18T16:25:40.530Z",
-      "fechaModificacion": "19/2/2023, 17:22:17"
-    },
-    "94aa44f1-02b0-4b36-b230-08e1b597c725": {
-      "titulo": "3",
-      "autor": "1",
-      "imagen": "static/dibujos/image-94aa44f1-02b0-4b36-b230-08e1b597c725.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "2023-02-18T16:26:24.436Z",
-      "fechaModificacion": "2023-02-18T16:26:24.436Z"
-    },
-    "5e07ef5c-7a3a-43c9-ba0b-e488e02042d5": {
-      "titulo": "4",
-      "autor": "1",
-      "imagen": "static/dibujos/image-5e07ef5c-7a3a-43c9-ba0b-e488e02042d5.jpeg",
-      "favoritos": ["1"],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "2023-02-18T16:26:27.555Z",
-      "fechaModificacion": "2023-02-18T16:26:27.555Z"
-    },
-    "add0bff8-bdac-4c94-9fbf-ff89a0ff939d": {
-      "titulo": "5",
-      "autor": "1",
-      "imagen": "static/dibujos/image-add0bff8-bdac-4c94-9fbf-ff89a0ff939d.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "2023-02-18T16:26:31.242Z",
-      "fechaModificacion": "2023-02-18T16:26:31.242Z"
-    },
-    "c8e2c355-7184-481a-916e-9dac6096ead6": {
-      "titulo": "6",
-      "autor": "1",
-      "imagen": "static/dibujos/image-c8e2c355-7184-481a-916e-9dac6096ead6.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "2023-02-18T16:26:34.847Z",
-      "fechaModificacion": "2023-02-18T16:26:34.847Z"
-    },
-    "56f06fb9-a136-422d-8079-24923cc528e8": {
-      "titulo": "7",
-      "autor": "1",
-      "imagen": "static/dibujos/image-56f06fb9-a136-422d-8079-24923cc528e8.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "2023-02-18T16:26:40.622Z",
-      "fechaModificacion": "2023-02-18T16:26:40.622Z"
-    },
-    "9f1a99c5-a7a3-414b-94b1-2a50300d0db3": {
-      "titulo": "8",
-      "autor": "1",
-      "imagen": "static/dibujos/image-9f1a99c5-a7a3-414b-94b1-2a50300d0db3.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "2023-02-18T16:26:44.708Z",
-      "fechaModificacion": "2023-02-18T16:26:44.708Z"
-    },
-    "3805ff36-e8ac-4db3-96f8-ce4966fb0a06": {
-      "titulo": "9",
-      "autor": "1",
-      "imagen": "static/dibujos/image-3805ff36-e8ac-4db3-96f8-ce4966fb0a06.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "2023-02-18T16:26:48.376Z",
-      "fechaModificacion": "2023-02-18T16:26:48.376Z"
-    },
-    "42018ae9-2769-431c-a78e-58fc61f962e3": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-42018ae9-2769-431c-a78e-58fc61f962e3.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "2023-02-18T16:28:07.807Z",
-      "fechaModificacion": "2023-02-18T16:28:07.807Z"
-    },
-    "77abb1e5-fbaa-42d3-8576-b91648388383": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-77abb1e5-fbaa-42d3-8576-b91648388383.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "2023-02-19T12:19:47.523Z",
-      "fechaModificacion": "2023-02-19T12:19:47.523Z"
-    },
-    "659d6af4-1dd3-457a-900c-3d6d59fee8ef": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-659d6af4-1dd3-457a-900c-3d6d59fee8ef.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento."
-    },
-    "d11c85c5-898f-40a4-a422-82d111e0737e": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-d11c85c5-898f-40a4-a422-82d111e0737e.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento."
-    },
-    "a405d9be-0582-49de-b545-d2f5ec94f8fc": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-a405d9be-0582-49de-b545-d2f5ec94f8fc.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "19/2/2023, 13:29:19",
-      "fechaModificacion": "19/2/2023, 13:29:19"
-    },
-    "54bd8996-e591-4473-b950-74a6863e0ddd": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-54bd8996-e591-4473-b950-74a6863e0ddd.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
+      "titulo": "Gatos tomando café",
+      "autor": "2",
+      "imagen": "static/dibujos/image-1.jpeg",
+      "favoritos": ["4", "6", "8", "9", "12", "14", "15", "16", "18", "20"],
+      "descripcion": "Una pintura muy colorida de un grupo de gatos disfrutando de una taza de café en una terraza al aire libre.",
       "fechaAlta": "19/2/2023, 13:43:15",
       "fechaModificacion": "19/2/2023, 13:43:15"
     },
-    "eb90187f-a366-449d-8fd5-004c5390dac2": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-eb90187f-a366-449d-8fd5-004c5390dac2.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "19/2/2023, 17:12:48",
-      "fechaModificacion": "19/2/2023, 17:12:48"
+    "2": {
+      "titulo": "Perros surfeando",
+      "autor": "10",
+      "imagen": "static/dibujos/image-2.jpeg",
+      "favoritos": ["1", "4", "5", "7", "9", "10", "13", "16"],
+      "descripcion": "Una pintura divertida de un grupo de perros surfeando en una playa con olas gigantes.",
+      "fechaAlta": "19/2/2023, 14:10:21",
+      "fechaModificacion": "19/2/2023, 15:22:30"
     },
-    "930972c7-c5b2-494b-bc63-86c205879e99": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-930972c7-c5b2-494b-bc63-86c205879e99.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "19/2/2023, 17:13:54",
-      "fechaModificacion": "19/2/2023, 17:13:54"
+    "3": {
+      "titulo": "Girafas bailando salsa",
+      "autor": "9",
+      "imagen": "static/dibujos/image-3.jpeg",
+      "favoritos": ["1", "3", "7", "9", "10", "11", "12", "15", "18"],
+      "descripcion": "Una pintura divertida de dos girafas bailando salsa en un club nocturno de la selva.",
+      "fechaAlta": "19/2/2023, 14:38:50",
+      "fechaModificacion": "19/2/2023, 17:45:10"
     },
-    "d7fdc5f9-a2fd-4032-852b-19f5ed307573": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-d7fdc5f9-a2fd-4032-852b-19f5ed307573.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "19/2/2023, 17:14:16",
-      "fechaModificacion": "19/2/2023, 17:14:16"
+    "4": {
+      "titulo": "Pájaros en la ciudad",
+      "autor": "18",
+      "imagen": "static/dibujos/image-4.jpeg",
+      "favoritos": ["1", "2", "5", "6", "7", "8", "10", "11", "12", "14", "17", "19"],
+      "descripcion": "Una pintura colorida de pájaros volando en una ciudad, rodeados de rascacielos y letreros luminosos.",
+      "fechaAlta": "19/2/2023, 15:11:33",
+      "fechaModificacion": "19/2/2023, 18:30:40"
     },
-    "24ba1436-72f3-454e-be60-1529223131e6": {
-      "titulo": "10",
-      "autor": "1",
-      "imagen": "static/dibujos/image-24ba1436-72f3-454e-be60-1529223131e6.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "19/2/2023, 17:14:54",
-      "fechaModificacion": "19/2/2023, 17:14:54"
+    "5": {
+      "titulo": "Peces en el espacio",
+      "autor": "7",
+      "imagen": "static/dibujos/image-5.jpeg",
+      "favoritos": ["2"],
+      "descripcion": "Una pintura surrealista de peces flotando en el espacio, rodeados de planetas y estrellas.",
+      "fechaAlta": "19/2/2023, 15:38:20",
+      "fechaModificacion": "19/2/2023, 18:45:55"
     },
-    "4fa00e9d-9a67-4f68-91f5-c95ae0ce909f": {
-      "titulo": "10",
+    "6": {
+      "titulo": "Gatos en el espacio",
+      "autor": "18",
+      "imagen": "static/dibujos/image-2d27f654-9575-462c-9dc7-c38a6d8de6dd.jpeg",
+      "favoritos": ["3", "12", "5", "17", "2"],
+      "descripcion": "Unos gatos astronautas explorando el universo",
+      "fechaAlta": "19/2/2023, 14:25:40",
+      "fechaModificacion": "20/2/2023, 09:35:17"
+    },
+    "7": {
+      "titulo": "La cueva de los dinosaurios",
+      "autor": "9",
+      "imagen": "static/dibujos/image-3e6a5f6d-8f0d-43ec-a1f7-1ed27c0237e5.jpeg",
+      "favoritos": ["14", "8", "7", "6", "10"],
+      "descripcion": "Un grupo de exploradores descubren una cueva llena de dinosaurios",
+      "fechaAlta": "19/2/2023, 15:18:02",
+      "fechaModificacion": "20/2/2023, 11:05:44"
+    },
+    "8": {
+      "titulo": "Las aventuras de Juan y la tortuga",
+      "autor": "5",
+      "imagen": "static/dibujos/image-45d2f982-eb39-4e7e-a73c-8f7d983a1a45.jpeg",
+      "favoritos": ["11", "6", "9", "20"],
+      "descripcion": "Un chico y su tortuga tienen aventuras increíbles por todo el mundo",
+      "fechaAlta": "19/2/2023, 16:11:20",
+      "fechaModificacion": "20/2/2023, 12:20:58"
+    },
+    "9": {
+      "titulo": "The Peculiar Adventures of a Purple Penguin",
+      "autor": "9",
+      "imagen": "static/dibujos/image-9.jpeg",
+      "favoritos": [2, 5, 8, 16, 18],
+      "descripcion": "Follow the whimsical journey of a purple penguin as he navigates through fantastical landscapes filled with surprises and absurdities!",
+      "fechaAlta": "22/2/2023, 11:33:45",
+      "fechaModificacion": "24/2/2023, 9:15:30"
+    },
+    "10": {
+      "titulo": "The Adventures of a Flying Banana",
+      "autor": "11",
+      "imagen": "static/dibujos/image-10.jpeg",
+      "favoritos": [1, 3, 5, 9, 12],
+      "descripcion": "Join a plucky little banana as he soars through the skies and dodges obstacles with the help of his trusty jetpack!",
+      "fechaAlta": "23/2/2023, 16:22:55",
+      "fechaModificacion": "26/2/2023, 14:07:20"
+    },
+    "11": {
+      "titulo": "The Misadventures of a Musical Sock",
+      "autor": "18",
+      "imagen": "static/dibujos/image-11.jpeg",
+      "favoritos": [4, 7, 11, 15, 19],
+      "descripcion": "What happens when a sock gets lost in the dryer and emerges with the power of music? Follow our hero as he embarks on a journey to find his match and form a rockin' duo!",
+      "fechaAlta": "24/2/2023, 9:12:10",
+      "fechaModificacion": "26/2/2023, 18:54:25"
+    },
+    "12": {
+      "titulo": "The Epic Quest of a Brave Hamster",
+      "autor": "6",
+      "imagen": "static/dibujos/image-12.jpeg",
+      "favoritos": [1, 5, 7, 13],
+      "descripcion": "Our furry hero sets out on a journey through dark forests and perilous mountains, facing fearsome foes and making unlikely allies along the way, all in search of the ultimate treasure.",
+      "fechaAlta": "25/2/2023, 14:43:20",
+      "fechaModificacion": "27/2/2023, 12:29:55"
+    },
+    "13": {
+      "titulo": "The Mysterious Adventures of a Ghostly Octopus",
+      "autor": "9",
+      "imagen": "static/dibujos/image-13.jpeg",
+      "favoritos": [1, 6, 9, 11, 15],
+      "descripcion": "What secrets lie hidden in the depths of the ocean? Follow our intrepid hero as she unravels the mysteries of the underwater world and faces her greatest fears.",
+      "fechaAlta": "26/2/2023, 10:18:35",
+      "fechaModificacion": "28/2/2023, 17:02:15"
+    },
+    "14": {
+      "titulo": "La fiesta de las plantas",
+      "autor": "7",
+      "imagen": "static/dibujos/image-14.jpeg",
+      "favoritos": ["2", "8", "10"],
+      "descripcion": "Las plantas de un jardín se reúnen para celebrar una gran fiesta",
+      "fechaAlta": "19/2/2023, 17:03:55",
+      "fechaModificacion": "20/2/2023, 14:15:33"
+    },
+    "15": {
+      "titulo": "nuevo título",
       "autor": "1",
-      "imagen": "static/dibujos/image-4fa00e9d-9a67-4f68-91f5-c95ae0ce909f.jpeg",
-      "favoritos": [],
-      "descripcion": "Un dibujo de la naturaleza en movimiento, con agua corriendo y árboles meciéndose con el viento.",
-      "fechaAlta": "19/2/2023, 17:19:04",
-      "fechaModificacion": "19/2/2023, 17:19:04"
+      "imagen": "static/dibujos/image-15.jpeg",
+      "favoritos": ["1"],
+      "descripcion": "hola",
+      "fechaAlta": "19/2/2023, 13:43:15",
+      "fechaModificacion": "19/2/2023, 13:43:15"
+    },
+    "16": {
+      "titulo": "La Mona Catrina",
+      "autor": "12",
+      "imagen": "static/dibujos/image-16.jpeg",
+      "favoritos": ["2", "15", "6"],
+      "descripcion": "Una catrina muy mexicana y fashion",
+      "fechaAlta": "20/2/2023, 09:13:28",
+      "fechaModificacion": "20/2/2023, 10:23:12"
+    },
+    "17": {
+      "titulo": "El gato y la Luna",
+      "autor": "6",
+      "imagen": "static/dibujos/image-17.jpeg",
+      "favoritos": ["2", "4", "5", "14", "19"],
+      "descripcion": "Un gato curioso mirando la luna llena",
+      "fechaAlta": "20/2/2023, 14:27:41",
+      "fechaModificacion": "20/2/2023, 14:27:41"
+    },
+    "18": {
+      "titulo": "El cactus bailarín",
+      "autor": "19",
+      "imagen": "static/dibujos/image-18.jpeg",
+      "favoritos": ["5", "6", "8", "11"],
+      "descripcion": "Un cactus mexicano bailando salsa",
+      "fechaAlta": "21/2/2023, 08:15:19",
+      "fechaModificacion": "21/2/2023, 08:15:19"
+    },
+    "19": {
+      "titulo": "El perro volador",
+      "autor": "10",
+      "imagen": "static/dibujos/image-19.jpeg",
+      "favoritos": ["1", "3", "6", "7", "9"],
+      "descripcion": "Un perro volando en su sueño",
+      "fechaAlta": "21/2/2023, 13:09:32",
+      "fechaModificacion": "21/2/2023, 13:09:32"
+    },
+    "20": {
+      "titulo": "Sueño de colores",
+      "autor": "2",
+      "imagen": "static/dibujos/image-20.jpeg",
+      "favoritos": ["1", "2"],
+      "descripcion": "Un sueño lleno de colores y formas.",
+      "fechaAlta": "20/2/2023, 09:24:12",
+      "fechaModificacion": "20/2/2023, 09:24:12"
     }
   }
 }
+
