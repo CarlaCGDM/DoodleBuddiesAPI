@@ -20,8 +20,8 @@ const createOnePost = (postData) => {
     const id = uuid();
     const newPost = {
         ...postData,
-        fechaAlta: new Date().toLocaleDateString(),
-        fechaModificacion: new Date().toLocaleDateString()
+        fechaAlta: new Date().toLocaleString(),
+        fechaModificacion: new Date().toLocaleString()
     };
 
     // Las imágenes de las publicaciones se reciben como dataURL y deben almacenarse en el directorio público
@@ -55,13 +55,10 @@ const deleteOnePost = (id) => {
     return onePost;
   };
 
-//-----
-
 const updateOnePost = (id,newPostData) => {
   
     // Obtiene el producto actual
     const postData = postModel.getOnePost(id);
-    console.log(newPostData);
 
     // Crea un producto nuevo cambiando la información en los campos necesarios
     for (const field in postData) {
@@ -70,7 +67,7 @@ const updateOnePost = (id,newPostData) => {
         }
     }
 
-    postData.fechaModificacion = new Date().toLocaleDateString;
+    postData["fechaModificacion"] = new Date().toLocaleString();
 
     // Actualiza el producto existente
     const newPost = postModel.updateOnePost(id,postData);
@@ -79,6 +76,21 @@ const updateOnePost = (id,newPostData) => {
 
 };
 
+// Las publicaciones creadas por un usuario concreto
+const getUserPosts = (userid) => {
+
+    const posts = postModel.getUserPosts(userid);
+    return posts;
+
+}
+
+// Las publicaciones que un usuario ha guardado como favoritas
+const getUserLikes = (userid) => {
+
+    const posts = postModel.getUserLikes(userid);
+    return posts;
+
+}
 
 module.exports = {
   getAllPosts,
@@ -86,4 +98,6 @@ module.exports = {
   getOnePost,
   updateOnePost,
   deleteOnePost,
+  getUserPosts,
+  getUserLikes
 };

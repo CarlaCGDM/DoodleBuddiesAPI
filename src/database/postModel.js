@@ -1,12 +1,9 @@
 const datos = require("./publicaciones.json")
 const fs = require("fs")
 
-/* TODO
-Metodo getSomePosts que le das una lista de posts y te devuelve esos posts concretos */
+const getAllPosts = (page) => {
 
-const getAllPosts = (page,asc=true) => {
-
-    // TODO: Dejar al cliente elegir si las más antiguas o las más nuevas primero mediante un parámetro "order".
+    // TODO: Dejar al cliente elegir si las más antiguas o las más nuevas primero mediante un parámetro booleano "asc".
 
     const perPage = 8;
 
@@ -15,11 +12,6 @@ const getAllPosts = (page,asc=true) => {
 
     return Object.entries(datos.publicaciones).sort((a, b) => a.fechaAlta > b.fechaAlta ? 1 : -1).slice(start,end).map(entry => entry[1]);
     
-}
-
-const getSomePosts = (postList) => {
-    let posts = Object.entries(datos.publicaciones).filter(post => postList.includes(post.id)).sort((a, b) => a.fechaAlta > b.fechaAlta ? 1 : -1);
-    return posts;
 }
 
 const getOnePost = (id) => {
@@ -95,10 +87,34 @@ const deleteOnePost = (id) => {
     }
   }
 
+// Recibe una id de usuario y devuelve las publicaciones que ha creado ese usuario, ordenadas de más nuevas a más antiguas
+const getUserPosts = (userid) => {
+
+    let posts = Object.entries(datos.publicaciones)
+        .filter(post => post[1].autor === userid)
+        .sort((a, b) => a.fechaAlta > b.fechaAlta ? 1 : -1)
+        .map(entry => entry[1]);
+
+    return posts.length > 0 ? posts : false;
+}
+
+// Recibe una id de usuario y devuelve las publicaciones que ha guardado ese usuario como favoritas, ordenadas de más nuevas a más antiguas
+const getUserLikes = (userid) => {
+
+    let posts = Object.entries(datos.publicaciones)
+        .filter(post => post[1].favoritos.includes(userid))
+        .sort((a, b) => a.fechaAlta > b.fechaAlta ? 1 : -1)
+        .map(entry => entry[1]);
+
+    return posts.length > 0 ? posts : false;
+}
+
 module.exports = {
     getAllPosts,
     getOnePost,
     insertOnePost,
     deleteOnePost,
-    updateOnePost
+    updateOnePost,
+    getUserPosts,
+    getUserLikes
 }

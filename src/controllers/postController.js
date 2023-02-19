@@ -8,13 +8,7 @@
 
 const postServices = require("../services/postServices");
 
-/*  ------------------------------------------------------------------------------------------------------------ ||| GET ALL POSTS
-*
-*   --> GET /api/v1/publicaciones
-*   Devuelve el listado completo de publicaciones que se han realizado en la aplicación.
-*
-*/
-
+// Devuelve el listado completo de publicaciones que se han realizado en la aplicación, paginado, y empezando por la publicación más nueva.
 const getAllPosts = (req, res, next) => {
   
   const page = req.params.page;  // Parametros de la URL
@@ -29,7 +23,7 @@ const getAllPosts = (req, res, next) => {
 
   } else {
 
-    res.status(404).send({mensaje: "¡No existen publicaciones!"});
+    res.status(404).send({mensaje: "¡No hay publicaciones ahí!"});
 
   }
 
@@ -37,12 +31,8 @@ const getAllPosts = (req, res, next) => {
 
 };
 
-/*  ------------------------------------------------------------------------------------------------------------ ||| CREATE NEW POST
-*
-*   --> POST /api/v1/publicaciones
-*   Crea una nueva publicación con los datos especificados en el cuerpo de la petición.
-*
-*/
+// Crea una nueva publicación con los datos especificados en el cuerpo de la petición.
+// La imagen especificada como dataURL se convierte en fichero y se almacena en el directorio público.
 
 const createOnePost = (req, res, next) => {
 
@@ -52,17 +42,14 @@ const createOnePost = (req, res, next) => {
 
   // Comprobamos que no faltan datos en el cuerpo de la petición HTTP
 
-  if (!body.titulo || !body.descripcion)
+  if (!body.titulo || !body.autor || !body.imagen || !body.descripcion) {
 
     // Código HTTP 400: Bad request
-    res.status(400).send({mensaje: "¡Las publicaciones deben tener siempre una descripción y un título!"});
+    res.status(400).send({mensaje: "¡Las publicaciones deben incluir un título, una descripción, una imagen y un autor!"}); }
 
   else {
 
     // Creamos el objeto publicación que almacenaremos en la base de datos
-
-    // TODO: ¡El autor de la publicación debe ser el usuario autenticado!
-    // Añadir fecha de creación y modificación.
 
     const newPostData = {
       "titulo":body.titulo,
@@ -92,13 +79,7 @@ const createOnePost = (req, res, next) => {
 
 };
 
-/*  ------------------------------------------------------------------------------------------------------------ ||| GET ONE POST
-*
-*   --> GET /api/v1/publicaciones/:id
-*   Devuelve los datos de una publicación concreta especificada como parámetro de la URL de la petición.
-*
-*/
-
+// Devuelve los datos de una publicación concreta especificada como parámetro de la URL de la petición.
 const getOnePost = (req, res, next) => {
 
   // Id de la publicación
@@ -113,11 +94,11 @@ const getOnePost = (req, res, next) => {
 
   if (onePost) {
 
-    res.send(onePost);
+    res.status(200).send(onePost);
 
   } else {
 
-    res.status(404).send({ mensaje: "¡Lo sentimos, esa publicación que buscas no existe!" });
+    res.status(404).send({ mensaje: "¡Parece que esa publicación no existe!" });
 
   }
 
@@ -125,13 +106,7 @@ const getOnePost = (req, res, next) => {
 
 };
 
-/*  ------------------------------------------------------------------------------------------------------------ ||| DELETE ONE POST
-*
-*   --> DELETE /api/v1/publicaciones/:id
-*   Elimina una publicación concreta especificada como parámetro de la URL de la petición junto con todos sus datos.
-*
-*/
-
+// Elimina una publicación concreta especificada como parámetro de la URL de la petición junto con todos sus datos.
 const deleteOnePost = (req, res, next) => {
 
   // Id de la publicación
@@ -146,7 +121,7 @@ const deleteOnePost = (req, res, next) => {
 
   if (!deletedPost) {
 
-    res.status(404).send({mensaje: "¡No puedes borrar esa publicación porque no existe!"});
+    res.status(404).send({mensaje: "¡No puedes borrar una publicación que no existe!"});
 
   } else {
 
@@ -158,13 +133,8 @@ const deleteOnePost = (req, res, next) => {
 
 };
 
-/*  ------------------------------------------------------------------------------------------------------------ ||| UPDATE ONE POST
-* 
-*   --> PUT, PATCH /api/v1/publicaciones/:id
-*   Modifica los datos indicados de una publicación, dejando el resto de datos como están.
-*
-*/
 
+// Modifica los datos indicados de una publicación, dejando el resto de datos como están.
 const updateOnePost = (req, res, next) => {
 
   // Id de la publicación
@@ -203,10 +173,68 @@ const updateOnePost = (req, res, next) => {
 
 }
 
+// Devuelve todas las publicaciones creadas por el usuario especificado.
+const getUserPosts = (req, res, next) => {
+
+  // Id del usuario especificado
+
+  const { id } = req.params;
+
+  // Le pasamos los datos al servicio.
+
+  const datos = postServices.getUserPosts(id);
+
+  // Si se encuentran datos, se devuelven los datos junto a un código de éxito.
+  // Si no se encuentran datos, se devuelve un mensaje de error junto a un código 404.
+
+  if (datos) {
+
+    res.status(200).send({datos});
+
+  } else {
+
+    res.status(404).send({ mensaje: "¡Ups, parece que ahí no hay nada!" });
+
+  }
+
+  res.end();
+
+}
+
+// Devuelve todas las publicaciones que el usuario especificado haya marcado como favoritas.
+const getUserLikes = (req, res, next) => {
+
+  // Id del usuario especificado
+
+  const { id } = req.params;
+
+  // Le pasamos los datos al servicio.
+
+  const datos = postServices.getUserLikes(id);
+
+  // Si se encuentran datos, se devuelven los datos junto a un código de éxito.
+  // Si no se encuentran datos, se devuelve un mensaje de error junto a un código 404.
+
+  if (datos) {
+
+    res.status(200).send({datos});
+
+  } else {
+
+    res.status(404).send({ mensaje: "¡Ups, parece que ahí no hay nada!" });
+
+  }
+
+  res.end();
+
+}
+
 module.exports = {
   getAllPosts,
   createOnePost,
   getOnePost,
   updateOnePost,
   deleteOnePost,
+  getUserPosts,
+  getUserLikes
 };
