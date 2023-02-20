@@ -10,7 +10,7 @@ const getAllPosts = (page) => {
     const start = perPage * (page - 1);
     const end = perPage * page;
 
-    return Object.entries(datos.publicaciones).sort((a, b) => a.fechaAlta > b.fechaAlta ? 1 : -1).slice(start,end).map(entry => entry[1]);
+    return Object.entries(datos.publicaciones).sort((a, b) => a.fechaAlta > b.fechaAlta ? 1 : -1).slice(start,end).map(entry => entry);
     
 }
 
