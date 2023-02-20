@@ -48,7 +48,7 @@
     "6": {
       "titulo": "Gatos en el espacio",
       "autor": "18",
-      "imagen": "static/dibujos/image-2d27f654-9575-462c-9dc7-c38a6d8de6dd.jpeg",
+      "imagen": "static/dibujos/image-6.jpeg",
       "favoritos": ["3", "12", "5", "17", "2"],
       "descripcion": "Unos gatos astronautas explorando el universo",
       "fechaAlta": "19/2/2023, 14:25:40",
@@ -57,7 +57,7 @@
     "7": {
       "titulo": "La cueva de los dinosaurios",
       "autor": "9",
-      "imagen": "static/dibujos/image-3e6a5f6d-8f0d-43ec-a1f7-1ed27c0237e5.jpeg",
+      "imagen": "static/dibujos/image-7.jpeg",
       "favoritos": ["14", "8", "7", "6", "10"],
       "descripcion": "Un grupo de exploradores descubren una cueva llena de dinosaurios",
       "fechaAlta": "19/2/2023, 15:18:02",
@@ -66,7 +66,7 @@
     "8": {
       "titulo": "Las aventuras de Juan y la tortuga",
       "autor": "5",
-      "imagen": "static/dibujos/image-45d2f982-eb39-4e7e-a73c-8f7d983a1a45.jpeg",
+      "imagen": "static/dibujos/image-8.jpeg",
       "favoritos": ["11", "6", "9", "20"],
       "descripcion": "Un chico y su tortuga tienen aventuras increíbles por todo el mundo",
       "fechaAlta": "19/2/2023, 16:11:20",
