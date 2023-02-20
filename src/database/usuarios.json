@@ -3,7 +3,7 @@
     "1": {
       "nombreusu": "FluffyPaws",
       "email": "user1@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "nGkH2$7fLp",
       "fechaAlta": "18/1/2023, 19:38:50",
       "fechaModificacion": "18/2/2023, 19:38:50"
@@ -11,7 +11,7 @@
     "2": {
       "nombreusu": "SillyWhiskers",
       "email": "user2@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "jK9#pF5@zW",
       "fechaAlta": "19/2/2023, 19:38:50",
       "fechaModificacion": "19/2/2023, 19:38:50"
@@ -19,7 +19,7 @@
     "3": {
       "nombreusu": "ChirpyBird",
       "email": "user3@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "uM6$eV8&xL",
       "fechaAlta": "19/2/2023, 19:38:50",
       "fechaModificacion": "19/2/2023, 19:38:50"
@@ -27,7 +27,7 @@
     "4": {
       "nombreusu": "HappyTails",
       "email": "user4@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "sL2#tJ7&xG",
       "fechaAlta": "19/2/2023, 19:38:50",
       "fechaModificacion": "19/2/2023, 19:38:50"
@@ -35,7 +35,7 @@
     "5": {
       "nombreusu": "FurryEars",
       "email": "user5@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "tB4%nE6#wS",
       "fechaAlta": "12/2/2023, 19:38:50",
       "fechaModificacion": "12/2/2023, 19:38:50"
@@ -43,7 +43,7 @@
     "6": {
       "nombreusu": "TinyNose",
       "email": "user6@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "vT8@kW3$mR",
       "fechaAlta": "12/2/2023, 19:38:50",
       "fechaModificacion": "15/2/2023, 19:38:50"
@@ -51,7 +51,7 @@
     "7": {
       "nombreusu": "CrazyEyes",
       "email": "user7@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "dP5&rG7#uN",
       "fechaAlta": "19/2/2023, 19:38:50",
       "fechaModificacion": "19/2/2023, 19:38:50"
@@ -59,7 +59,7 @@
     "8": {
       "nombreusu": "SnazzyTongue",
       "email": "user8@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "hS9$nD2#wL",
       "fechaAlta": "11/2/2023, 19:38:50",
       "fechaModificacion": "11/2/2023, 19:38:50"
@@ -68,7 +68,7 @@
     "9": {
       "nombreusu": "FluffyEars",
       "email": "user9@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "mG4#tL8@vW",
       "fechaAlta": "11/2/2023, 19:38:50",
       "fechaModificacion": "12/2/2023, 19:38:50"
@@ -76,7 +76,7 @@
     "10": {
       "nombreusu": "BouncyPaws",
       "email": "user10@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "nL7$sE2%pT",
       "fechaAlta": "19/2/2023, 19:38:50",
       "fechaModificacion": "19/2/2023, 19:38:50"
@@ -84,7 +84,7 @@
     "11": {
       "nombreusu": "ChattyTail",
       "email": "user11@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "bF3$wS9#kN",
       "fechaAlta": "19/1/2023, 19:38:50",
       "fechaModificacion": "17/2/2023, 19:38:50"
@@ -92,7 +92,7 @@
     "12": {
       "nombreusu": "SillyTongue",
       "email": "user12@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "tV4#hM8@dS",
       "fechaAlta": "12/2/2023, 19:38:50",
       "fechaModificacion": "14/2/2023, 19:38:50"
@@ -100,7 +100,7 @@
     "13": {
       "nombreusu": "FluffyWhiskers",
       "email": "user13@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "gT2%pR6#jN",
       "fechaAlta": "23/2/2023, 12:45:00",
       "fechaModificacion": "25/2/2023, 15:10:20"
@@ -108,7 +108,7 @@
     "14": {
       "nombreusu": "HappyEars",
       "email": "user14@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "kD6#nT3$wS",
       "fechaAlta": "19/2/2023, 19:38:50",
       "fechaModificacion": "19/2/2023, 19:38:50"
@@ -116,7 +116,7 @@
     "15": {
       "nombreusu": "FurryNose",
       "email": "user15@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "fW5$mL9@sP",
       "fechaAlta": "23/2/2023, 12:45:00",
       "fechaModificacion": "25/2/2023, 15:10:20"
@@ -124,7 +124,7 @@
     "16": {
       "nombreusu": "TinyPaws",
       "email": "user16@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "hR2@wL8$tN",
       "fechaAlta": "21/2/2023, 08:20:30",
       "fechaModificacion": "22/2/2023, 09:35:45"
@@ -132,7 +132,7 @@
     "17": {
       "nombreusu": "CuriousWhiskers",
       "email": "user17@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "fN6#tH8@sK",
       "fechaAlta": "21/2/2023, 08:20:30",
       "fechaModificacion": "22/2/2023, 09:35:45"
@@ -140,7 +140,7 @@
     "18": {
       "nombreusu": "SnugglyPaws",
       "email": "user18@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "rH8$tK6#sF",
       "fechaAlta": "23/2/2023, 12:45:00",
       "fechaModificacion": "25/2/2023, 15:10:20"
@@ -148,7 +148,7 @@
     "19": {
       "nombreusu": "PlayfulTail",
       "email": "user19@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "tG4@sF8#mL",
       "fechaAlta": "26/2/2023, 18:30:10",
       "fechaModificacion": "27/2/2023, 21:15:30"
@@ -156,7 +156,7 @@
     "20": {
       "nombreusu": "FluffyFeet",
       "email": "user20@example.com",
-      "avatar": "static/avatars/default.jpeg",
+      "avatar": "static/avatares/default.jpeg",
       "password": "yU6#gH8@jL",
       "fechaAlta": "28/2/2023, 10:20:15",
       "fechaModificacion": "1/3/2023, 11:50:25"
